@@ -1,9 +1,9 @@
-package br.com.mariojp.blog.pesistencia;
+package br.com.ucsal.blog.pesistencia;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.mariojp.blog.model.Post;
+import br.com.ucsal.blog.model.Post;
 
 public class PostDAO {
 	

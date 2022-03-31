@@ -1,4 +1,4 @@
-package br.com.mariojp.blog;
+package br.com.ucsal.blog;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

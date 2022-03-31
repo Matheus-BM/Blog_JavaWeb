@@ -1,4 +1,4 @@
-package br.com.mariojp.blog.controller;
+package br.com.ucsal.blog.controller;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -8,8 +8,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import br.com.mariojp.blog.model.Usuario;
-import br.com.mariojp.blog.services.LoginService;
+import br.com.ucsal.blog.model.Usuario;
+import br.com.ucsal.blog.services.LoginService;
 
 /**
  * Servlet implementation class LoginController

@@ -1,10 +1,10 @@
-package br.com.mariojp.blog.controller;
+package br.com.ucsal.blog.controller;
 
 import java.io.IOException;
 import java.util.List;
 
-import br.com.mariojp.blog.model.Post;
-import br.com.mariojp.blog.pesistencia.PostDAO;
+import br.com.ucsal.blog.model.Post;
+import br.com.ucsal.blog.pesistencia.PostDAO;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

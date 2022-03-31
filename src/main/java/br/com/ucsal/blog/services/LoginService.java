@@ -1,7 +1,7 @@
-package br.com.mariojp.blog.services;
+package br.com.ucsal.blog.services;
 
-import br.com.mariojp.blog.model.Usuario;
-import br.com.mariojp.blog.pesistencia.UsuarioDAO;
+import br.com.ucsal.blog.model.Usuario;
+import br.com.ucsal.blog.pesistencia.UsuarioDAO;
 
 public class LoginService {
 

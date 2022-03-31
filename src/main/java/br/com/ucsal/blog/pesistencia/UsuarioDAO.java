@@ -1,6 +1,6 @@
-package br.com.mariojp.blog.pesistencia;
+package br.com.ucsal.blog.pesistencia;
 
-import br.com.mariojp.blog.model.Usuario;
+import br.com.ucsal.blog.model.Usuario;
 
 public class UsuarioDAO {
 

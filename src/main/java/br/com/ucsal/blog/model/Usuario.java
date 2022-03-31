@@ -1,4 +1,4 @@
-package br.com.mariojp.blog.model;
+package br.com.ucsal.blog.model;
 
 public class Usuario {
 	
