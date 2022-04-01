@@ -13,30 +13,17 @@
 </head>
 <body>
 <div class="container">
-<h3 class="pb-4 mb-4 fst-italic border-bottom  ">
+<h3 class="pb-4 mb-4 fst-italic border-bottom">
 POSTS
 </h3>
 
 
 <c:forEach var="p" items="${lista}">
-
- <div class="row justify-content-center">
-    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-      <div class="card">
- 
-        <div class="card-body">
-        <h4 class="card-title"><c:out value="${p.titulo}"/></h2>
-          <small class="text-muted cat">
-            <i class="far fa-clock text-info"></i> <c:out value="${p.autor}"/>
-          </small>
-          <p class="card-text"><c:out value="${p.texto}"/></p>
-        <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
-           
-        </div>
-      </div>
-    </div>
-  </div>
-        <p></p>
+	<article class="blog-post">
+        <h2 class="blog-post-title"><c:out value="${p.titulo}"/></h2>
+        <p class="blog-post-meta"> <c:out value="${p.autor}"/></p>
+        <p><c:out value="${p.texto}"/></p>
+      </article>
 </c:forEach>
 
 

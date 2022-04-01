@@ -9,12 +9,13 @@ public class PostDAO {
 	
 	private static List<Post> posts = new ArrayList<Post>();
 	
+	
 	static {
 	
-		posts.add(new Post("Post 1", "Texto 1", "Pedro"));
-		posts.add(new Post("Post 2", "Texto 2", "Maria"));
-		posts.add(new Post("Post 3", "Texto 3", "Pedro"));
-		posts.add(new Post("Post 4", "Texto 4", "Maria"));
+		posts.add(new Post("Lorem Ipsum 2", "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...", "Pedro"));
+		posts.add(new Post("Lorem Ipsum 2", "Quisque vestibulum arcu mollis orci malesuada interdum. Fusce accumsan in eros sed luctus.", "Maria"));
+		posts.add(new Post("Lorem Ipsum 3", "Fusce ultrices, orci vitae lobortis dignissim, nisl tortor pulvinar lectus, a ultricies nisl dolor id ante.", "Pedro"));
+		posts.add(new Post("Lorem Ipsum 4", "Pellentesque ornare diam justo, id imperdiet diam feugiat a. Integer commodo lobortis est.", "Maria"));
 
 	}
 	
